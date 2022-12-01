@@ -1,7 +1,8 @@
 import { Categorias, Producto, Productos } from "../pantallas";
 
+import { COLORES } from "../constantes/tema/colores";
+import { Platform } from "react-native";
 import React from "react";
-import { colores } from "../constantes/tema/colores";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 const Stack = createNativeStackNavigator();
@@ -11,8 +12,8 @@ const ShopNavigator = () => {
     <Stack.Navigator
       initialRouteName="Categorias"
       screenOptions={{
-        headerStyle: { backgroundColor: colores.secundario },
-        headerTintColor: colores.blanco,
+        headerStyle: { backgroundColor: COLORES.secundario },
+        headerTintColor: COLORES.blanco,
       }}
     >
       <Stack.Screen
@@ -20,7 +21,11 @@ const ShopNavigator = () => {
         component={Categorias}
         options={{ title: "Categorías" }}
       />
-      <Stack.Screen name="Productos" component={Productos} />
+      <Stack.Screen
+        name="Productos"
+        component={Productos}
+        options={{ title: "Nueva pantalla" }}
+      />
       <Stack.Screen name="Producto" component={Producto} />
     </Stack.Navigator>
   );
