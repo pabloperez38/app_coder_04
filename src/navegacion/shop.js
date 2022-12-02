@@ -14,6 +14,7 @@ const ShopNavigator = () => {
       screenOptions={{
         headerStyle: { backgroundColor: COLORES.secundario },
         headerTintColor: COLORES.blanco,
+        headerTitleStyle: { fontFamily: "Sora-Bold" },
       }}
     >
       <Stack.Screen
