@@ -4,8 +4,34 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
     backgroundColor: COLORES.fondo,
   },
+  listContainer: { flex: 1 },
+  footer: {
+    borderTopWidth: 1,
+    borderTopColor: COLORES.primario,
+
+    paddingVertical: 10,
+    marginHorizontal: 10,
+    marginBottom: 10,
+  },
+  botonConfirmar: {
+    backgroundColor: COLORES.primario,
+    borderRadius: 5,
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    height: 60,
+  },
+  textoBotonConfirmar: { fontFamily: "Sora-Regular", fontSize: 16 },
+  totalContainer: {
+    flex: 0.5,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+  },
+  textoTotal: { fontFamily: "Sora-Regular", fontSize: 16 },
+  montoTotal: { fontFamily: "Sora-Bold", fontSize: 16 },
 });
