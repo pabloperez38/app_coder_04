@@ -15,11 +15,7 @@ const OrdenesNavigator = () => {
         headerTitleStyle: { fontFamily: "Sora-Bold" },
       }}
     >
-      <Stack.Screen
-        name="Ordenes"
-        component={Ordenes}
-        options={{ title: "Ordenes" }}
-      />
+      <Stack.Screen name="Ordenes" component={Ordenes} />
     </Stack.Navigator>
   );
 };

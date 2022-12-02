@@ -15,11 +15,7 @@ const CarritoNavigator = () => {
         headerTitleStyle: { fontFamily: "Sora-Bold" },
       }}
     >
-      <Stack.Screen
-        name="Carrito"
-        component={Carrito}
-        options={{ title: "Carrito" }}
-      />
+      <Stack.Screen name="Carrito" component={Carrito} />
     </Stack.Navigator>
   );
 };
