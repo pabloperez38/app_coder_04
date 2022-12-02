@@ -8,7 +8,11 @@ import { styles } from "./styles";
 
 const Categorias = ({ navigation }) => {
   const onSelected = (item) => {
-    console.warn("onSelected", item);
+    navigation.navigate("Productos", {
+      categoriaId: item.id,
+      titulo: item.title,
+      color: item.color,
+    });
   };
   const renderItem = ({ item }) => (
     <ItemCategoria item={item} onSelected={onSelected} />
