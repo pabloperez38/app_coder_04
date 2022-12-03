@@ -13,4 +13,7 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     color: COLORES.texto,
   },
+  descripcion: { fontFamily: "Sora-Regular" },
+  peso: { fontFamily: "Sora-Regular" },
+  precio: { fontFamily: "Sora-Regular" },
 });

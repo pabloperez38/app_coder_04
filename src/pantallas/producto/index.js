@@ -16,7 +16,7 @@ const Producto = ({ navigation, route }) => {
       <Text style={styles.titulo}>{title}</Text>
       <Text style={styles.descripcion}>{description}</Text>
       <Text style={styles.peso}>{weight}</Text>
-      <Text style={styles.precio}>${price}</Text>
+      <Text style={styles.precio}>Precio: ${price}</Text>
     </View>
   );
 };
