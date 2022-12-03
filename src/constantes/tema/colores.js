@@ -1,9 +1,9 @@
 export const COLORES = {
-  primario: "#FF8C42",
-  secundario: "#6699CC",
-  terciario: "#FFF275",
+  primario: "#4d1924",
+  secundario: "#9c3848",
+  terciario: "#dc93a3",
   negro: "#000000",
   blanco: "#ffffff",
-  fondo: "#fffbd6",
+  fondo: "#f5e0e4",
   texto: "#212121",
 };

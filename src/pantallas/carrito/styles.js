@@ -10,10 +10,8 @@ export const styles = StyleSheet.create({
   footer: {
     borderTopWidth: 1,
     borderTopColor: COLORES.primario,
-
     paddingVertical: 10,
     marginHorizontal: 10,
-    marginBottom: 10,
   },
   botonConfirmar: {
     backgroundColor: COLORES.primario,
@@ -25,13 +23,21 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     height: 60,
   },
-  textoBotonConfirmar: { fontFamily: "Sora-Regular", fontSize: 16 },
+  textoBotonConfirmar: {
+    fontFamily: "Sora-Regular",
+    fontSize: 16,
+    color: COLORES.blanco,
+  },
   totalContainer: {
     flex: 0.5,
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
   },
-  textoTotal: { fontFamily: "Sora-Regular", fontSize: 16 },
-  montoTotal: { fontFamily: "Sora-Bold", fontSize: 16 },
+  textoTotal: {
+    fontFamily: "Sora-Regular",
+    fontSize: 16,
+    color: COLORES.blanco,
+  },
+  montoTotal: { fontFamily: "Sora-Bold", fontSize: 16, color: COLORES.blanco },
 });
