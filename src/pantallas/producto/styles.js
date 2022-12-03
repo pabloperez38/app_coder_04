@@ -16,4 +16,5 @@ export const styles = StyleSheet.create({
   descripcion: { fontFamily: "Sora-Regular" },
   peso: { fontFamily: "Sora-Regular" },
   precio: { fontFamily: "Sora-Regular" },
+  imagen: { width: 200, height: 200, marginTop: 30 },
 });
